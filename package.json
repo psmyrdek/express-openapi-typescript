@@ -1,0 +1,24 @@
+{
+  "name": "openapi-metadata-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/server.ts --watch",
+    "spec": "tsx src/spec.ts"
+  },
+  "author": "Przeprogramowani",
+  "license": "ISC",
+  "description": "Example of using openapi-metadata to generate OpenAPI documentation for an Express.js application.",
+  "devDependencies": {
+    "@types/express": "5.0.0",
+    "@types/node": "22.10.1",
+    "openapi-metadata": "0.1.0",
+    "reflect-metadata": "0.2.2",
+    "tsx": "4.19.2",
+    "typescript": "5.7.2"
+  },
+  "dependencies": {
+    "express": "5.0.1"
+  }
+}
